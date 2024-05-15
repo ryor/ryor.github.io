@@ -1,15 +1,27 @@
 <html>
   <head>
     <title>(R)oll (Y)our (O)wn (R)unner for your Node.js project tasks</title>
-    <style>.section { height: 300px }</style>
+    <style>section { height: 300px } div { height: 200px }</style>
   </head>
   <body>
-    <h1 id="get-started" class="section">Get Started:</h1>
-    <h1 id="runner" class="section">Runner:</h1>
-    <h2>Task definitions with categories:</h2>
-    <h2>Task definitions without categories:</h2>
-    <h1 id="task-definitions" class="section">Task Definitions:</h1>
-    <h2>With actions:</h2>
-    <h2>Without actions:</h2>
+    <section id="get-started">
+      <h1 class="section">Get Started:</h1>
+    </section>
+    <section id="runner">
+      <h1 class="section">Runner:</h1>
+      <div id="runner-tasks-without-categories">
+        <h2>Tasks with categories:</h2>
+      </div>
+      <div id="runner-tasks-with-categories">
+        <h2>Tasks without categories:</h2>
+      </div>
+    </section>
+    <section id="tasks">
+      <h1 class="section">Tasks:</h1>
+      <div id="tasks-without-actions">
+      </div>
+      <div id="tasks-with-actions">
+      </div>
+    </section>
   </body>
 </html>
